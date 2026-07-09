@@ -1,0 +1,16 @@
+{
+  "page": "home",
+  "route": "/",
+  "reference": "referenciaarbnb.png",
+  "header": {
+    "logo": "airbnb",
+    "tabs": ["Todo", "Alojamientos", "Experiencias", "Servicios"],
+    "searchFields": ["Destino", "Fechas", "Huéspedes"]
+  },
+  "filters": ["Todas", "Playa", "Mansiones", "Cabañas", "Diseño", "Campo"],
+  "sections": [
+    "Alojamientos populares en Playa del Carmen",
+    "Disponibles el mes que viene en Cancún"
+  ],
+  "cardSchema": ["placeholder", "title", "dates", "priceTotal", "rating"]
+}

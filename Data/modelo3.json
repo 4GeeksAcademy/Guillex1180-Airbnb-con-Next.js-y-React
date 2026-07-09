@@ -1,0 +1,17 @@
+{
+  "page": "room-detail",
+  "route": "/rooms/[id]",
+  "features": {
+    "loadingWithTimeout": true,
+    "photoGallery": true,
+    "hostInfo": true,
+    "amenitiesGrid": true,
+    "bookingCard": true,
+    "guestCounter": true,
+    "backLink": "/catalog"
+  },
+  "bookingRules": {
+    "minGuests": 1,
+    "maxGuests": "depends on room data"
+  }
+}

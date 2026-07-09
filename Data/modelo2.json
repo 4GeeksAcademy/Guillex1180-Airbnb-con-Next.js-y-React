@@ -1,0 +1,14 @@
+{
+  "page": "catalog",
+  "route": "/catalog",
+  "features": {
+    "resultHeader": true,
+    "sortControl": ["asc", "desc"],
+    "reusesStayCard": true,
+    "mapPlaceholder": true
+  },
+  "layout": {
+    "mobile": "cards then map",
+    "desktop": "cards left map right"
+  }
+}
